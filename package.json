@@ -1,11 +1,17 @@
 {
+  "homepage": "https://erayvural.github.io/my-portfolio",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.3",
     "mongoose": "^6.2.7",
     "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
