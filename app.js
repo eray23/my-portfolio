@@ -7,7 +7,7 @@ const contactController = require('./controllers/contactController');
 
 
 //Connect Database
-mongoose.connect('mongodb+srv://eray23:<password>@cluster0.0wq8e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://eray23:1232323@cluster0.0wq8e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
