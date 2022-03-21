@@ -2,7 +2,7 @@
   "homepage": "https://erayvural.github.io/my-portfolio",
   "scripts": {
     "start": "nodemon app.js",
-    "predeploy": "npm run",
+    "predeploy": "node app",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
